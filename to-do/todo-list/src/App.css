@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.App{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.left{
+  width: 50%;
+}
+.right{
+  width: 50%;
+  background-color: aquamarine;
+}
+.head{
+
+  background-color: blueviolet;
+  justify-content: space-around;
+}
+.bt1{
+  width: 25px;
+  
+}
+.next{
+  display: flex;
+  flex-direction: row;
+}
+.hidden{
+  display: none;
+}
+.nh{
+  display: unset;
+}
+
+.items{
+  justify-content: space-between;
+}
+.taskmain{
+  background-color: rgb(8, 209, 209);
+}
+.addtask{
+  border: 5px solid rgba(40, 35, 35, 0.333);
+}
+.name{
+  font-size: 20px;
+}
+.task{
+  border-left: 3px solid #5555;
+  border-right: 3px solid #5555;
+  border-bottom: 3px solid #5555;
+
+
+  
+}
+
+
+
+
+
+
+
+

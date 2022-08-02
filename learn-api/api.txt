@@ -1,0 +1,33 @@
+mi az api?
+egy app igy kommunikal a szerverrel
+
+REST API
+(REpresentesonol State Transfer)
+
+-kommunikacio a szerver es a kliesns kozott
+-restful:	1.) simple and standardized
+		2.) scalable and stateles: if your server grows in complexeti you stilll can mace easily modifications
+		3.) heigh performance and support cahsing
+
+client send a REQUEST and the server send a RESPONSE
+
+REQUEST:
+-CRUD (create, read, update, delete): in rest api is https requests/operations 
+	CRUD		API
+	create		post
+	read		get
+	update		put
+	delete		delete
+
+
+a request:
+
+-haeders (api key or authentication data)
+-operation (post, get, put, delete)
+-endpoint (where you send the request)
+-parameters/body (data you send to your request
+
+
+a response:
+
+-
