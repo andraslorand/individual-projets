@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+}
+.main{
+    padding-top: 250px;
+    max-width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+}
+.object{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin: 0 auto ;
+    position: relative;
+}
+.object::after,
+.object::before{
+    --scale:0;
+    position: absolute;
+    top:-0.25rem;
+    left: 50%;
+    transform: translateX(-50%) translateY(-100%) scale(var(--scale));
+    transition: 150ms;
+    transform-origin: bottom center;
+    
+}
+.object::after{
+    content: attr(data-tooltip);
+    padding: 0.5rem;
+    width: max-content;
+    max-width: 100%;
+    text-align: center;
+    border-radius: .3rem;
+    background-color: blue;
+}
+
+.object:hover::after{
+    --scale:1
+}
