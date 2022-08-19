@@ -21,7 +21,7 @@ window.addEventListener('load',()=>{
         .then(data=>{
         console.log(data)
         console.log(data.main.temp)
-        document.querySelector(".degree").innerHTML=data.main.temp
+        document.querySelector(".degree").innerHTML=Math.round(data.main.temp/10)
         document.querySelector(".timezone").innerHTML=data.name
     }
         )
